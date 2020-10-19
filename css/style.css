@@ -1,0 +1,64 @@
+/*Base classes*/
+.clear {
+	clear: both;
+}
+
+/*Header*/
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+.nav-li {
+	float: left;
+}
+.nav-ul::after {
+	content: '';
+	clear: left;
+	display: block;
+}
+.image-wraper .image {
+	float: right;
+	height: 200px;
+}
+.image-wraper .test1 {
+	float: right;
+	width: 400px;
+}
+
+/*3 section*/
+.box1 {
+	float:left;
+	width: 570px;
+	background-color: grey;
+}
+.box2 {
+	float: right;
+	width: 570px;
+	background-color: yellow;
+}
+.box1 img {
+	float: left;
+}
+.box1 .box1-p {
+	float: right;
+	width: 355px;
+}
+.read {
+	float: right;
+}
+.box2 img {
+	float: left;
+}
+.box2 p {
+	float: right;
+	width: 355px;
+}
+
+
+.image-wraper::after {
+	content: "";
+	clear: both;
+	display: block;
+}
